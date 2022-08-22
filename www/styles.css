@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(67, 67, 67);
+    color: rgb(237, 237, 237);
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
