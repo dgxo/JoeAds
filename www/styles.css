@@ -1,6 +1,7 @@
 body {
     background-color: rgb(67, 67, 67);
     color: rgb(237, 237, 237);
+    text-align: center;
 }
 
 .main {
@@ -8,6 +9,5 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #ff0000;
     padding: 10px;
 }

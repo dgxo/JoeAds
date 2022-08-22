@@ -1,5 +1,21 @@
 {
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+    "dependencies": {
+        "express": "^4.18.1",
+        "reload": "^3.2.0"
+    },
+    "devDependencies": {
+        "connect-livereload": "^0.6.1",
+        "livereload": "^0.9.3",
+        "nodemon": "^2.0.19"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "node_modules/*"
+        ],
+        "delay": 1000,
+        "ext": "js,json,html,css"
+    },
+    "scripts": {
+        "start": "nodemon express.js"
+    }
 }
